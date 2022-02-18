@@ -1,0 +1,72 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.button_style {
+  margin-left: 10px !important;
+  margin-right: 10px;
+}
+
+.centerTable {
+  margin: 0px auto;
+}
+
+h2 {
+    color: #3f51b5;
+}
+
+.users-table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.users-table td, 
+.users-table th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.users-table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+.list li {
+  font-size: 20px;
+}
+
+.list li a {
+  text-decoration: none;
+  color: #636161;
+}
+
+.list li .active {
+  color: blue;
+}
+
+.task-done {
+  text-decoration: line-through;
+}
+.heading {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 425px) {
+  .heading {
+    font-size: 30px !important;
+  }
+}
